@@ -7,13 +7,6 @@
          "enabled":true
       },
       {
-         "name":"Linux build_aar_module_test",
-         "repo":"flutter",
-         "task_name":"linux_build_aar_module_test",
-         "enabled":true,
-         "run_if": ["dev/**", "bin/**"]
-      },
-      {
          "name":"Linux customer_testing",
          "repo":"flutter",
          "task_name":"linux_customer_testing",
