@@ -40,7 +40,7 @@ function follow_links() (
     cd -P "$(dirname -- "$file")"
     file="$PWD/$(basename -- "$file")"
   done
-  echo "$file"
+  echo "$file  $PWD"
 )
 
 PROG_NAME="$(follow_links "${BASH_SOURCE[0]}")"
