@@ -1,8 +1,5 @@
-// Copyright 2014 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
 
-// @dart = 2.8
+@dart = 2.8
 
 import 'dart:io';
 
@@ -25,7 +22,7 @@ void tryToDelete(Directory directory) {
   try {
     directory.deleteSync(recursive: true);
   } on FileSystemException catch (error) {
-    print('Failed to delete ${directory.path}: $error');
+    print(' ${directory.path}: $error');
   }
 }
 
