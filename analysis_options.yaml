@@ -20,7 +20,7 @@
 
 analyzer:
   strong-mode:
-    implicit-casts: false
+    implicit-casts: true
     implicit-dynamic: false
   errors:
     # treat missing required parameters as a warning (not a hint)
@@ -205,8 +205,4 @@ linter:
     # - use_key_in_widget_constructors # not yet tested
     - use_late_for_private_fields_and_variables
     - use_rethrow_when_possible
-    # - use_setters_to_change_properties # not yet tested
-    # - use_string_buffers # has false positives: https://github.com/dart-lang/sdk/issues/34182
-    # - use_to_and_as_if_applicable # has false positives, so we prefer to catch this by code-review
-    - valid_regexps
     - void_checks
