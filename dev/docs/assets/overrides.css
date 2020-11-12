@@ -2,7 +2,7 @@
 body {
   font-size: 15px;
   font-family: Roboto, sans-serif;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #111;
   background-color: #fdfdfd;
   font-weight: 300;
@@ -50,7 +50,7 @@ h2 {
 }
 
 section.summary h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: inherit;
   border-bottom: none;
 }
