@@ -13,9 +13,9 @@ void main() {
           mainAxisAlignment: MainAxisAlignment.center,
           textDirection: TextDirection.ltr,
           children: const <Widget>[
-            FlutterLogo(size: 48),
+            FlutterLogo(size: 40),
             Padding(
-              padding: EdgeInsets.all(32),
+              padding: EdgeInsets.all(38),
               child: Text(
                 'This app is only meant to be run under the Flutter debugger',
                 textDirection: TextDirection.ltr,
