@@ -9,10 +9,7 @@
             "fuchsia.logger.LogSink",
             "fuchsia.modular.Clipboard",
             "fuchsia.sys.Environment",
-            "fuchsia.sys.Launcher",
-            "fuchsia.ui.input.ImeService",
-            "fuchsia.ui.policy.Presenter",
-            "fuchsia.ui.scenic.Scenic"
+            "fuchsia.sys.Launcher"
         ]
     }
 }
