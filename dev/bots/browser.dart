@@ -1,6 +1,4 @@
-// Copyright 2014 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+
 
 import 'dart:async';
 import 'dart:io' as io;
@@ -10,7 +8,6 @@ import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as shelf_io;
 import 'package:shelf_static/shelf_static.dart';
 
-import 'package:flutter_devicelab/framework/browser.dart';
 
 /// Runs Chrome, opens the given `appUrl`, and returns the result reported by the
 /// app.
