@@ -3,14 +3,6 @@ REM Copyright 2014 The Flutter Authors. All rights reserved.
 REM Use of this source code is governed by a BSD-style license that can be
 REM found in the LICENSE file.
 
-REM ---------------------------------- NOTE ----------------------------------
-REM
-REM Please keep the logic in this file consistent with the logic in the
-REM `dart` script in the same directory to ensure that Flutter & Dart continue to
-REM work across all platforms!
-REM
-REM --------------------------------------------------------------------------
-
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 FOR %%i IN ("%~dp0..") DO SET FLUTTER_ROOT=%%~fi
